@@ -1,0 +1,20 @@
+# CMake build output
+build/
+cmake-build-*/
+
+# Compiled binaries / objects
+httpd
+*.o
+*.a
+*.so
+
+# CMake leftovers
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
